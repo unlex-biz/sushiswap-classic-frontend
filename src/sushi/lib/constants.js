@@ -319,6 +319,7 @@ export const supportedPools = [
     tokenSymbol: 'CRV',
     icon: '🐊',
   },
+/////////
   {
     pid: 22,
     lpAddresses: {
@@ -344,59 +345,6 @@ export const supportedPools = [
     symbol: 'wNXM-ETH SLP',
     tokenSymbol: 'wNXM',
     icon: '👨🏻‍🍳',
-  },
-  {
-    pid: 25,
-    lpAddresses: {
-      1: '0x382c4a5147Fd4090F7BE3A9Ff398F95638F5D39E',
-    },
-    tokenAddresses: {
-      1: '0x5dbcf33d8c2e976c6b560249878e6f1491bca25c',
-    },
-    name: "Chef's Menu",
-    symbol: 'yUSD-ETH SLP',
-    tokenSymbol: 'yUSD',
-    icon: '‍👨🏻‍🍳',
-  },
-/////////
-  {
-    pid: 36,
-    lpAddresses: {
-      1: '0x742c15d71ea7444964bc39b0ed729b3729adc361',
-    },
-    tokenAddresses: {
-      1: '0xd26114cd6EE289AccF82350c8d8487fedB8A0C07',
-    },
-    name: "Chef's Menu",
-    symbol: 'OMG-ETH SLP',
-    tokenSymbol: 'OMG',
-    icon: '‍👨🏻‍🍳',
-  },
-  {
-    pid: 35,
-    lpAddresses: {
-      1: '0x269db91fc3c7fcc275c2e6f22e5552504512811c',
-    },
-    tokenAddresses: {
-      1: '0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5',
-    },
-    name: "Chef's Menu",
-    symbol: 'PICKLE-ETH SLP',
-    tokenSymbol: 'PICKLE',
-    icon: '‍👨🏻‍🍳',
-  },
-  {
-    pid: 34,
-    lpAddresses: {
-      1: '0x68c6d02d44e16f1c20088731ab032f849100d70f',
-    },
-    tokenAddresses: {
-      1: '0x62359Ed7505Efc61FF1D56fEF82158CcaffA23D7',
-    },
-    name: "Chef's Menu",
-    symbol: 'CORE-ETH SLP',
-    tokenSymbol: 'CORE',
-    icon: '‍👨🏻‍🍳',
   },
   {
     pid: 33,
@@ -425,6 +373,85 @@ export const supportedPools = [
     icon: '‍👨🏻‍🍳',
   },
   {
+    pid: 38,
+    lpAddresses: {
+      1: '0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3',
+    },
+    tokenAddresses: {
+      1: '0xff20817765cb7f73d4bde2e66e067e58d11095c2',
+    },
+    name: "Chef's Menu",
+    symbol: 'AMP-ETH SLP',
+    tokenSymbol: 'AMP',
+    icon: '‍👨🏻‍🍳',
+  },
+  {
+    pid: 39,
+    lpAddresses: {
+      1: '0xd597924b16cc1904d808285bc9044fd51ceeead7',
+    },
+    tokenAddresses: {
+      1: '0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272',
+    },
+    name: "Chef's Menu",
+    symbol: 'xSUSHI-USDC SLP',
+    tokenSymbol: 'xSUSHI',
+    icon: '‍👨🏻‍🍳',
+  },
+  {
+    pid: 40,
+    lpAddresses: {
+      1: '0x5a2943b25ce0678dc0b351928d2db331a55d94ea',
+    },
+    tokenAddresses: {
+      1: '0x3F382DbD960E3a9bbCeaE22651E88158d2791550',
+    },
+    name: "Chef's Menu",
+    symbol: 'GHST-ETH SLP',
+    tokenSymbol: 'GHST',
+    icon: '‍👨🏻‍🍳',
+  },
+  {
+    pid: 41,
+    lpAddresses: {
+      1: '0x53aabccae8c1713a6a150d9981d2ee867d0720e8',
+    },
+    tokenAddresses: {
+      1: '0xfca59cd816ab1ead66534d82bc21e7515ce441cf',
+    },
+    name: "Chef's Menu",
+    symbol: 'RARI-ETH SLP',
+    tokenSymbol: 'RARI',
+    icon: '‍👨🏻‍🍳',
+  },
+  {
+    pid: 42,
+    lpAddresses: {
+      1: '0x34b13f8cd184f55d0bd4dd1fe6c07d46f245c7ed',
+    },
+    tokenAddresses: {
+      1: '0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b',
+    },
+    name: "Chef's Menu",
+    symbol: 'DPI-ETH SLP',
+    tokenSymbol: 'DPI',
+    icon: '‍👨🏻‍🍳',
+  },
+///////
+  {
+    pid: 25,
+    lpAddresses: {
+      1: '0x382c4a5147Fd4090F7BE3A9Ff398F95638F5D39E',
+    },
+    tokenAddresses: {
+      1: '0x5dbcf33d8c2e976c6b560249878e6f1491bca25c',
+    },
+    name: "Past Menu",
+    symbol: 'yUSD-ETH SLP',
+    tokenSymbol: 'yUSD',
+    icon: '‍🚫',
+  },
+  {
     pid: 31,
     lpAddresses: {
       1: '0x6463bd6026a2e7bfab5851b62969a92f7cca0eb6',
@@ -432,10 +459,49 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x584bC13c7D411c00c01A62e8019472dE68768430',
     },
-    name: "Chef's Menu",
+    name: "Past Menu",
     symbol: 'HEGIC-ETH SLP',
     tokenSymbol: 'HEGIC',
-    icon: '‍👨🏻‍🍳',
+    icon: '‍🚫',
+  },
+  {
+    pid: 34,
+    lpAddresses: {
+      1: '0x68c6d02d44e16f1c20088731ab032f849100d70f',
+    },
+    tokenAddresses: {
+      1: '0x62359Ed7505Efc61FF1D56fEF82158CcaffA23D7',
+    },
+    name: "Past Menu",
+    symbol: 'CORE-ETH SLP',
+    tokenSymbol: 'CORE',
+    icon: '‍🚫',
+  },
+  {
+    pid: 35,
+    lpAddresses: {
+      1: '0x269db91fc3c7fcc275c2e6f22e5552504512811c',
+    },
+    tokenAddresses: {
+      1: '0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5',
+    },
+    name: "Past Menu",
+    symbol: 'PICKLE-ETH SLP',
+    tokenSymbol: 'PICKLE',
+    icon: '‍🚫',
+  },
+  {
+    pid: 36,
+    lpAddresses: {
+      1: '0x742c15d71ea7444964bc39b0ed729b3729adc361',
+    },
+    tokenAddresses: {
+      1: '0xd26114cd6EE289AccF82350c8d8487fedB8A0C07',
+    },
+    name: "Past Menu",
+    symbol: 'OMG-ETH SLP',
+    tokenSymbol: 'OMG',
+    icon: '‍🚫',
   },
   {
     pid: 37,
@@ -445,12 +511,11 @@ export const supportedPools = [
     tokenAddresses: {
       1: '0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9',
     },
-    name: "Chef's Menu",
+    name: "Past Menu",
     symbol: 'AAVE-ETH SLP',
     tokenSymbol: 'AAVE',
-    icon: '‍👨🏻‍🍳',
+    icon: '🚫',
   },
-///////
   {
     pid: 19,
     lpAddresses: {
