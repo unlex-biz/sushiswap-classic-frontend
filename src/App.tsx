@@ -43,7 +43,6 @@ const App: React.FC = () => {
           </Route>
         </Switch>
       </Router>
-      <Disclaimer />
     </Providers>
   )
 }

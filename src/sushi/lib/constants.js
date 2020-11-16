@@ -72,6 +72,7 @@ SLP Address on mainnet for reference
 */
 
 export const supportedPools = [
+  // Perm Menu
   {
     pid: 12,
     lpAddresses: {
@@ -84,32 +85,6 @@ export const supportedPools = [
     symbol: 'SUSHI-ETH SLP',
     tokenSymbol: 'SUSHI',
     icon: '🍣',
-  },
-  {
-    pid: 18,
-    lpAddresses: {
-      1: '0xdafd66636e2561b0284edde37e42d192f2844d40', //change this
-    },
-    tokenAddresses: {
-      1: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984',
-    },
-    name: 'UNI Unicorn',
-    symbol: 'UNI-ETH SLP',
-    tokenSymbol: 'UNI',
-    icon: '🦄',
-  },
-  {
-    pid: 0,
-    lpAddresses: {
-      1: '0x06da0fd433C1A5d7a4faa01111c044910A184553',
-    },
-    tokenAddresses: {
-      1: '0xdac17f958d2ee523a2206206994597c13d831ec7',
-    },
-    name: 'Tether Turtle',
-    symbol: 'USDT-ETH SLP',
-    tokenSymbol: 'USDT',
-    icon: '🐢',
   },
   {
     pid: 1,
@@ -138,6 +113,45 @@ export const supportedPools = [
     icon: '🦆',
   },
   {
+    pid: 21,
+    lpAddresses: {
+      1: '0xceff51756c56ceffca006cd410b03ffc46dd3a58',
+    },
+    tokenAddresses: {
+      1: '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599',
+    },
+    name: "BitCorn",
+    symbol: 'WBTC-ETH SLP',
+    tokenSymbol: 'WBTC',
+    icon: '🌽',
+  },
+  {
+    pid: 0,
+    lpAddresses: {
+      1: '0x06da0fd433C1A5d7a4faa01111c044910A184553',
+    },
+    tokenAddresses: {
+      1: '0xdac17f958d2ee523a2206206994597c13d831ec7',
+    },
+    name: 'Tether Turtle',
+    symbol: 'USDT-ETH SLP',
+    tokenSymbol: 'USDT',
+    icon: '🐢',
+  },
+  {
+    pid: 11,
+    lpAddresses: {
+      1: '0x088ee5007C98a9677165D78dD2109AE4a3D04d0C',
+    },
+    tokenAddresses: {
+      1: '0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e',
+    },
+    name: 'YFI Whale',
+    symbol: 'YFI-ETH SLP',
+    tokenSymbol: 'YFI',
+    icon: '🐋',
+  },
+  {
     pid: 3,
     lpAddresses: {
       1: '0xF1F85b2C54a2bD284B1cf4141D64fD171Bd85539',
@@ -149,6 +163,58 @@ export const supportedPools = [
     symbol: 'SUSD-ETH SLP',
     tokenSymbol: 'SUSD',
     icon: '🦍',
+  },
+  {
+    pid: 8,
+    lpAddresses: {
+      1: '0xC40D16476380e4037e6b1A2594cAF6a6cc8Da967',
+    },
+    tokenAddresses: {
+      1: '0x514910771af9ca656af840dff83e8264ecf986ca',
+    },
+    name: 'Toadie Marine',
+    symbol: 'LINK-ETH SLP',
+    tokenSymbol: 'LINK',
+    icon: '🐸',
+  },
+  {
+    pid: 37,
+    lpAddresses: {
+      1: '0xD75EA151a61d06868E31F8988D28DFE5E9df57B4',
+    },
+    tokenAddresses: {
+      1: '0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9',
+    },
+    name: 'Aave Boar',
+    symbol: 'AAVE-ETH SLP',
+    tokenSymbol: 'AAVE',
+    icon: '🐗',
+  },
+  {
+    pid: 4,
+    lpAddresses: {
+      1: '0x31503dcb60119a812fee820bb7042752019f2355',
+    },
+    tokenAddresses: {
+      1: '0xc00e94cb662c3520282e6f5717214004a7f26888',
+    },
+    name: 'Compound Truffle',
+    symbol: 'COMP-ETH SLP',
+    tokenSymbol: 'COMP',
+    icon: '🍄',
+  },
+  {
+    pid: 6,
+    lpAddresses: {
+      1: '0xA1d7b2d891e3A1f9ef4bBC5be20630C2FEB1c470',
+    },
+    tokenAddresses: {
+      1: '0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f',
+    },
+    name: 'Synthetic Snake',
+    symbol: 'SNX-ETH SLP',
+    tokenSymbol: 'SNX',
+    icon: '🐍',
   },
   {
     pid: 7,
@@ -177,82 +243,30 @@ export const supportedPools = [
     icon: '🦖',
   },
   {
-    pid: 8,
+    pid: 18,
     lpAddresses: {
-      1: '0xC40D16476380e4037e6b1A2594cAF6a6cc8Da967',
+      1: '0xdafd66636e2561b0284edde37e42d192f2844d40', //change this
     },
     tokenAddresses: {
-      1: '0x514910771af9ca656af840dff83e8264ecf986ca',
+      1: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984',
     },
-    name: 'Toadie Marine',
-    symbol: 'LINK-ETH SLP',
-    tokenSymbol: 'LINK',
-    icon: '🐸',
+    name: 'UNI Unicorn',
+    symbol: 'UNI-ETH SLP',
+    tokenSymbol: 'UNI',
+    icon: '🦄',
   },
   {
-    pid: 10,
+    pid: 44,
     lpAddresses: {
-      1: '0xCb2286d9471cc185281c4f763d34A962ED212962',
+      1: '0x0f82e57804d0b1f6fab2370a43dcfad3c7cb239c',
     },
     tokenAddresses: {
-      1: '0xd46ba6d942050d489dbd938a2c909a5d5039a161',
+      1: '0x0AaCfbeC6a24756c20D41914F2caba817C0d8521',
     },
-    name: 'Ample Chicks',
-    symbol: 'AMPL-ETH SLP',
-    tokenSymbol: 'AMPL',
-    icon: '🐥',
-  },
-  {
-    pid: 4,
-    lpAddresses: {
-      1: '0x31503dcb60119a812fee820bb7042752019f2355',
-    },
-    tokenAddresses: {
-      1: '0xc00e94cb662c3520282e6f5717214004a7f26888',
-    },
-    name: 'Compound Truffle',
-    symbol: 'COMP-ETH SLP',
-    tokenSymbol: 'COMP',
-    icon: '🍄',
-  },
-  {
-    pid: 5,
-    lpAddresses: {
-      1: '0x5E63360E891BD60C69445970256C260b0A6A54c6',
-    },
-    tokenAddresses: {
-      1: '0x80fb784b7ed66730e8b1dbd9820afd29931aab03',
-    },
-    name: 'Aave Boar',
-    symbol: 'LEND-ETH SLP',
-    tokenSymbol: 'LEND',
-    icon: '🐗',
-  },
-  {
-    pid: 6,
-    lpAddresses: {
-      1: '0xA1d7b2d891e3A1f9ef4bBC5be20630C2FEB1c470',
-    },
-    tokenAddresses: {
-      1: '0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f',
-    },
-    name: 'Synthetic Snake',
-    symbol: 'SNX-ETH SLP',
-    tokenSymbol: 'SNX',
-    icon: '🐍',
-  },
-  {
-    pid: 11,
-    lpAddresses: {
-      1: '0x088ee5007C98a9677165D78dD2109AE4a3D04d0C',
-    },
-    tokenAddresses: {
-      1: '0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e',
-    },
-    name: 'YFI Whale',
-    symbol: 'YFI-ETH SLP',
-    tokenSymbol: 'YFI',
-    icon: '🐋',
+    name: 'YAM',
+    symbol: 'YAM-ETH SLP',
+    tokenSymbol: 'YAM',
+    icon: '🍠',
   },
   {
     pid: 13,
@@ -268,45 +282,6 @@ export const supportedPools = [
     icon: '🦏',
   },
   {
-    pid: 14,
-    lpAddresses: {
-      1: '0xaad22f5543fcdaa694b68f94be177b561836ae57',
-    },
-    tokenAddresses: {
-      1: '0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5',
-    },
-    name: 'BASED Bull',
-    symbol: 'BASED-sUSD SLP',
-    tokenSymbol: 'BASED',
-    icon: '🐂',
-  },
-  {
-    pid: 15,
-    lpAddresses: {
-      1: '0x117d4288b3635021a3d612fe05a3cbf5c717fef2',
-    },
-    tokenAddresses: {
-      1: '0x476c5E26a75bd202a9683ffD34359C0CC15be0fF',
-    },
-    name: 'SRM Shark',
-    symbol: 'SRM-ETH SLP',
-    tokenSymbol: 'SRM',
-    icon: '🦈',
-  },
-  {
-    pid: 16,
-    lpAddresses: {
-      1: '0x95b54c8da12bb23f7a5f6e26c38d04acc6f81820',
-    },
-    tokenAddresses: {
-      1: '0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a',
-    },
-    name: 'YAMv2',
-    symbol: 'YAMv2-ETH SLP',
-    tokenSymbol: 'YAMv2',
-    icon: '🍠',
-  },
-  {
     pid: 17,
     lpAddresses: {
       1: '0x58Dc5a51fE44589BEb22E8CE67720B5BC5378009',
@@ -319,292 +294,5 @@ export const supportedPools = [
     tokenSymbol: 'CRV',
     icon: '🐊',
   },
-/////////
-  {
-    pid: 22,
-    lpAddresses: {
-      1: '0xf169CeA51EB51774cF107c88309717ddA20be167',
-    },
-    tokenAddresses: {
-      1: '0x2ba592F78dB6436527729929AAf6c908497cB200',
-    },
-    name: "Chef's Menu",
-    symbol: 'CREAM-ETH SLP',
-    tokenSymbol: 'CREAM',
-    icon: '👨🏻‍🍳',
-  },
-  {
-    pid: 24,
-    lpAddresses: {
-      1: '0xFcff3b04C499A57778ae2CF05584ab24278A7FCb',
-    },
-    tokenAddresses: {
-      1: '0x0d438f3b5175bebc262bf23753c1e53d03432bde',
-    },
-    name: "Chef's Menu",
-    symbol: 'wNXM-ETH SLP',
-    tokenSymbol: 'wNXM',
-    icon: '👨🏻‍🍳',
-  },
-  {
-    pid: 33,
-    lpAddresses: {
-      1: '0xba13afecda9beb75de5c56bbaf696b880a5a50dd',
-    },
-    tokenAddresses: {
-      1: '0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2',
-    },
-    name: "Chef's Menu",
-    symbol: 'MKR-ETH SLP',
-    tokenSymbol: 'MKR',
-    icon: '‍👨🏻‍🍳',
-  },
-  {
-    pid: 32,
-    lpAddresses: {
-      1: '0x2dbc7dd86c6cd87b525bd54ea73ebeebbc307f68',
-    },
-    tokenAddresses: {
-      1: '0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa',
-    },
-    name: "Chef's Menu",
-    symbol: 'wBTC-tBTC SLP',
-    tokenSymbol: 'tBTC',
-    icon: '‍👨🏻‍🍳',
-  },
-  {
-    pid: 38,
-    lpAddresses: {
-      1: '0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3',
-    },
-    tokenAddresses: {
-      1: '0xff20817765cb7f73d4bde2e66e067e58d11095c2',
-    },
-    name: "Chef's Menu",
-    symbol: 'AMP-ETH SLP',
-    tokenSymbol: 'AMP',
-    icon: '‍👨🏻‍🍳',
-  },
-  {
-    pid: 39,
-    lpAddresses: {
-      1: '0xd597924b16cc1904d808285bc9044fd51ceeead7',
-    },
-    tokenAddresses: {
-      1: '0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272',
-    },
-    name: "Chef's Menu",
-    symbol: 'xSUSHI-USDC SLP',
-    tokenSymbol: 'xSUSHI',
-    icon: '‍👨🏻‍🍳',
-  },
-  {
-    pid: 40,
-    lpAddresses: {
-      1: '0x5a2943b25ce0678dc0b351928d2db331a55d94ea',
-    },
-    tokenAddresses: {
-      1: '0x3F382DbD960E3a9bbCeaE22651E88158d2791550',
-    },
-    name: "Chef's Menu",
-    symbol: 'GHST-ETH SLP',
-    tokenSymbol: 'GHST',
-    icon: '‍👨🏻‍🍳',
-  },
-  {
-    pid: 41,
-    lpAddresses: {
-      1: '0x53aabccae8c1713a6a150d9981d2ee867d0720e8',
-    },
-    tokenAddresses: {
-      1: '0xfca59cd816ab1ead66534d82bc21e7515ce441cf',
-    },
-    name: "Chef's Menu",
-    symbol: 'RARI-ETH SLP',
-    tokenSymbol: 'RARI',
-    icon: '‍👨🏻‍🍳',
-  },
-  {
-    pid: 42,
-    lpAddresses: {
-      1: '0x34b13f8cd184f55d0bd4dd1fe6c07d46f245c7ed',
-    },
-    tokenAddresses: {
-      1: '0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b',
-    },
-    name: "Chef's Menu",
-    symbol: 'DPI-ETH SLP',
-    tokenSymbol: 'DPI',
-    icon: '‍👨🏻‍🍳',
-  },
-///////
-  {
-    pid: 25,
-    lpAddresses: {
-      1: '0x382c4a5147Fd4090F7BE3A9Ff398F95638F5D39E',
-    },
-    tokenAddresses: {
-      1: '0x5dbcf33d8c2e976c6b560249878e6f1491bca25c',
-    },
-    name: "Past Menu",
-    symbol: 'yUSD-ETH SLP',
-    tokenSymbol: 'yUSD',
-    icon: '‍🚫',
-  },
-  {
-    pid: 31,
-    lpAddresses: {
-      1: '0x6463bd6026a2e7bfab5851b62969a92f7cca0eb6',
-    },
-    tokenAddresses: {
-      1: '0x584bC13c7D411c00c01A62e8019472dE68768430',
-    },
-    name: "Past Menu",
-    symbol: 'HEGIC-ETH SLP',
-    tokenSymbol: 'HEGIC',
-    icon: '‍🚫',
-  },
-  {
-    pid: 34,
-    lpAddresses: {
-      1: '0x68c6d02d44e16f1c20088731ab032f849100d70f',
-    },
-    tokenAddresses: {
-      1: '0x62359Ed7505Efc61FF1D56fEF82158CcaffA23D7',
-    },
-    name: "Past Menu",
-    symbol: 'CORE-ETH SLP',
-    tokenSymbol: 'CORE',
-    icon: '‍🚫',
-  },
-  {
-    pid: 35,
-    lpAddresses: {
-      1: '0x269db91fc3c7fcc275c2e6f22e5552504512811c',
-    },
-    tokenAddresses: {
-      1: '0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5',
-    },
-    name: "Past Menu",
-    symbol: 'PICKLE-ETH SLP',
-    tokenSymbol: 'PICKLE',
-    icon: '‍🚫',
-  },
-  {
-    pid: 36,
-    lpAddresses: {
-      1: '0x742c15d71ea7444964bc39b0ed729b3729adc361',
-    },
-    tokenAddresses: {
-      1: '0xd26114cd6EE289AccF82350c8d8487fedB8A0C07',
-    },
-    name: "Past Menu",
-    symbol: 'OMG-ETH SLP',
-    tokenSymbol: 'OMG',
-    icon: '‍🚫',
-  },
-  {
-    pid: 37,
-    lpAddresses: {
-      1: '0xD75EA151a61d06868E31F8988D28DFE5E9df57B4',
-    },
-    tokenAddresses: {
-      1: '0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9',
-    },
-    name: "Past Menu",
-    symbol: 'AAVE-ETH SLP',
-    tokenSymbol: 'AAVE',
-    icon: '🚫',
-  },
-  {
-    pid: 19,
-    lpAddresses: {
-      1: '0x36e2FCCCc59e5747Ff63a03ea2e5C0c2C14911e7',
-    },
-    tokenAddresses: {
-      1: '0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272',
-    },
-    name: "Past Menu",
-    symbol: 'xSUSHI-ETH SLP',
-    tokenSymbol: 'xSUSHI',
-    icon: '🚫',
-  },
-  {
-   pid: 20,
-   lpAddresses: {
-     1: '0x0Cfe7968e7c34A51217a7C9b9dc1690F416E027e',
-   },
-   tokenAddresses: {
-     1: '0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643',
-   },
-   name: "Past Menu",
-   symbol: 'cDAI-DAI SLP',
-   tokenSymbol: 'cDAI',
-   icon: '🚫',
- },
- {
-   pid: 21,
-   lpAddresses: {
-     1: '0xceff51756c56ceffca006cd410b03ffc46dd3a58',
-   },
-   tokenAddresses: {
-     1: '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599',
-   },
-   name: "Past Menu",
-   symbol: 'WBTC-ETH SLP',
-   tokenSymbol: 'WBTC',
-   icon: '‍🚫',
- },
- {
-   pid: 23,
-   lpAddresses: {
-     1: '0x17b3C19Bd640a59E832AB73eCcF716CB47419846',
-   },
-   tokenAddresses: {
-     1: '0xD5525D397898e5502075Ea5E830d8914f6F0affe',
-   },
-   name: "Past Menu",
-   symbol: 'MEME-ETH SLP',
-   tokenSymbol: 'MEME',
-   icon: '🚫',
- },
- {
-   pid: 26,
-   lpAddresses: {
-     1: '0x2024324a99231509a3715172d4f4f4e751b38d4d',
-   },
-   tokenAddresses: {
-     1: '0x5dbcf33d8c2e976c6b560249878e6f1491bca25c',
-   },
-   name: "Past Menu",
-   symbol: 'yUSD-WBTC SLP',
-   tokenSymbol: 'yUSD',
-   icon: '‍🚫',
- },
- {
-   pid: 27,
-   lpAddresses: {
-     1: '0x0be88ac4b5C81700acF3a606a52a31C261a24A35',
-   },
-   tokenAddresses: {
-     1: '0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b',
-   },
-   name: "Past Menu",
-   symbol: 'CRO-ETH SLP',
-   tokenSymbol: 'CRO',
-   icon: '‍🚫',
- },
- {
-   pid: 28,
-   lpAddresses: {
-     1: '0x518d6CE2D7A689A591Bf46433443C31615b206C5',
-   },
-   tokenAddresses: {
-     1: '0xeb4c2781e4eba804ce9a9803c67d0893436bb27d',
-   },
-   name: "Past Menu",
-   symbol: 'renBTC-WBTC SLP',
-   tokenSymbol: 'renBTC',
-   icon: '‍‍🚫',
- },
+  // Perm Menu
 ]

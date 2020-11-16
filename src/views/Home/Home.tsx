@@ -21,11 +21,6 @@ const Home: React.FC = () => {
         <Balances />
       </Container>
       <Spacer size="lg" />
-      <StyledInfo>
-        🏆<b>Pro Tip</b>: SUSHI-ETH SLP token pool yields 4.8x more token
-        rewards per block.
-      </StyledInfo>
-      <Spacer size="lg" />
       <div
         style={{
           margin: '0 auto',

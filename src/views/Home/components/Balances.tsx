@@ -116,11 +116,12 @@ const Balances: React.FC = () => {
           <Label text="Total SUSHI Supply" />
           <Value
             value={totalSupply ? getBalanceNumber(totalSupply) : 'Locked'}
+            decimals={0}
           />
         </CardContent>
         <Footnote>
           New rewards per block
-          <FootnoteValue>100 SUSHI</FootnoteValue>
+          <FootnoteValue>80 SUSHI</FootnoteValue>
         </Footnote>
       </Card>
     </StyledWrapper>

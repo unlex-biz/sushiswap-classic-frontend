@@ -21,10 +21,10 @@ const Nav: React.FC = () => {
         Exchange
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
-        href="https://help.sushidocs.com/"
+        href="https://docs.sushiswap.fi/"
         target="_blank"
       >
-        About
+        Help
       </StyledAbsoluteLink>
     </StyledNav>
   )

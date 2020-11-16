@@ -16,6 +16,7 @@ import useModal from '../../../hooks/useModal'
 import useStake from '../../../hooks/useStake'
 import useStakedBalance from '../../../hooks/useStakedBalance'
 import useTokenBalance from '../../../hooks/useTokenBalance'
+import useMasterChefBalance from '../../../hooks/useMasterChefBalance'
 import useUnstake from '../../../hooks/useUnstake'
 import { getBalanceNumber } from '../../../utils/formatBalance'
 import DepositModal from './DepositModal'
@@ -35,6 +36,11 @@ const Stake: React.FC<StakeProps> = ({ lpContract, pid, tokenName }) => {
 
   const tokenBalance = useTokenBalance(lpContract.options.address)
   const stakedBalance = useStakedBalance(pid)
+  //const masterChefBalance = useMasterChefBalance(lpContract.options.address)
+
+  // TODO: Figure out a good way to display percentageOfPool for a user, possibily introduce a hover addition when hovering over stakedBalance
+  //const percentageOfStake = (getBalanceNumber(stakedBalance) / getBalanceNumber(masterChefBalance)) * 100
+  //console.log(percentageOfStake)
 
   const { onStake } = useStake(pid)
   const { onUnstake } = useUnstake(pid)
