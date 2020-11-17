@@ -15,16 +15,28 @@ const Nav: React.FC = () => {
         Staking
       </StyledLink>
       <StyledAbsoluteLink
+        href="https://sushiswap.fi/"
+        target="_blank"
+      >
+        SushiSwap Fi
+      </StyledAbsoluteLink>
+      <StyledAbsoluteLink
+        href="https://lite.sushiswap.fi/#/swap"
+        target="_blank"
+      >
+        SushiSwap Lite
+      </StyledAbsoluteLink>
+      <StyledAbsoluteLink
         href="https://exchange.sushiswapclassic.org"
         target="_blank"
       >
         Exchange
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
-        href="https://help.sushidocs.com/"
+        href="https://docs.sushiswap.fi/"
         target="_blank"
       >
-        About
+        Help
       </StyledAbsoluteLink>
     </StyledNav>
   )

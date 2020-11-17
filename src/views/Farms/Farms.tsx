@@ -27,9 +27,17 @@ const Farms: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={chef} height="120" />}
-                subtitle="Earn SUSHI tokens by staking SushiSwap V2 SLP Tokens. Note: Current APY includes 2/3rd SUSHI emission that is locked and will be retroactively disbursed at a later date."
+                subtitle="Earn SUSHI tokens by staking SushiSwap V2 SLP Tokens."
                 title="Select Your Favorite Dishes"
               />
+              <div
+                style={{
+                  alignItems: 'center',
+                  marginBottom: '2%'
+                }}
+              >
+                Note: Current APY includes 2/3rd SUSHI emission that is locked for 6 months.
+              </div>
               <FarmCards />
             </Route>
             <Route path={`${path}/:farmId`}>

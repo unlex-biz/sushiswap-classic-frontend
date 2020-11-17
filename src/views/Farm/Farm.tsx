@@ -87,6 +87,12 @@ const Farm: React.FC = () => {
         >
           {lpTokenName} Info
         </StyledLink>
+        <StyledLink
+          target="__blank"
+          href={`https://lite.sushiswap.fi/#/migrate`}
+        >
+          UNI to SLP 1 Click Migration
+        </StyledLink>
       </StyledFarm>
     </>
   )
@@ -130,7 +136,7 @@ const StyledInfo = styled.h3`
 `
 
 const StyledLink = styled.a`
-  color: ${(props) => props.theme.color.grey[400]};
+  color: ${(props) => props.theme.color.red[500]};
   padding-left: ${(props) => props.theme.spacing[3]}px;
   padding-right: ${(props) => props.theme.spacing[3]}px;
   text-decoration: none;
